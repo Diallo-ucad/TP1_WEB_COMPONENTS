@@ -102,35 +102,35 @@ template.innerHTML = `
     <label>170Hz</label>
     <webaudio-slider id="s1" type="range" value="0" step="1" min="-30" max="30" src="./assets/imgs/s3.png"  tracking="abs" width="200" height="20">
     </webaudio-slider>
-    <output id="gain0">-3 dB</output>
+    <output id="gain1">-3 dB</output>
     </div>
 
     <div class="controls">
     <label>350Hz</label>
     <webaudio-slider id="s2" type="range" value="0" step="1" min="-30" max="30" src="./assets/imgs/s3.png"  tracking="abs" width="200" height="20">
     </webaudio-slider>
-    <output id="gain0">-4 dB</output>
+    <output id="gain2">-4 dB</output>
     </div>
 
     <div class="controls">
     <label>1000Hz</label>
     <webaudio-slider id="s3" type="range" value="0" step="1" min="-30" max="30" src="./assets/imgs/s3.png"  tracking="abs" width="200" height="20">
     </webaudio-slider>
-    <output id="gain0">0 dB</output>
+    <output id="gain3">0 dB</output>
     </div>
 
     <div class="controls">
     <label>3500Hz</label>
     <webaudio-slider id="s1" type="range" value="0" step="4" min="-30" max="30" src="./assets/imgs/s3.png"  tracking="abs" width="200" height="20">
     </webaudio-slider>
-    <output id="gain0">0 dB</output>
+    <output id="gain4">0 dB</output>
     </div>
 
     <div class="controls">
     <label>10000Hz</label>
     <webaudio-slider id="s5" type="range" value="0" step="1" min="-30" max="30" src="./assets/imgs/s3.png"  tracking="abs" width="200" height="20">
     </webaudio-slider>
-    <output id="gain0">0 dB</output>
+    <output id="gain5">0 dB</output>
     </div>
 
     </div>
@@ -288,10 +288,6 @@ this.canvasContext = this.canvas.getContext('2d');
     
     }
 
-   
-     
-    
-  
     }
     ////////////////////////////////////
   
